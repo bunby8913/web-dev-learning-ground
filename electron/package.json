@@ -1,0 +1,15 @@
+{
+  "name": "electron-learn",
+  "version": "1.0.0",
+  "description": "a playground to learn electron",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bunby Lui",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^24.0.0"
+  }
+}
