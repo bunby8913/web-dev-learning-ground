@@ -1,0 +1,210 @@
+*
+{
+    font-family: 'Albert Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    color: white;
+    font-size: 14px;
+    background-color: black;
+}
+
+/* Setup horizontal line styling*/
+hr{
+    border: 1px solid lightgray;
+}
+
+/* Setup text syles */
+
+h1{
+    font-size: 56px;
+    text-align: center;
+    margin: 20px;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+
+}
+
+h3{
+    color: lightgrey;
+    max-width: 65%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+h4{
+    font-size: 48px;
+
+}
+
+h5{
+
+}
+
+h6{
+
+}
+
+p{
+
+}
+
+a{
+    font-size: 14px;
+}
+
+.greyText{
+    color: grey;
+}
+
+/*Global Button styling*/
+
+.primaryInvertedButton{
+    border: 1px solid white;
+    border-radius: 24px;
+    padding: 10px 20px;
+}
+
+.primaryNormalButton{
+    background-color: gray;
+    border-radius: 24px;
+    padding: 10px 20px;
+    margin-left: 1em;
+}
+
+
+/*The announcement header styling*/
+
+#annoucement{
+    background-color: black;
+}
+
+#annoucementContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#annoucementContainer div{
+    display: inline-block;
+    margin: 10px 8px;
+}
+
+#bannerButtons{
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 4px 1em;
+}
+
+/*The main navigation bar (header) styling */
+
+#mainNav{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+
+    margin-top: 32px;
+    
+}
+
+#mainNav div{
+    display:inline-flex;
+    align-items: baseline;
+
+}
+
+#logo
+{
+    margin-right: 40px;
+}
+
+
+#mainNav ul li{
+    display:inline-block;
+    margin: 10px 0px;
+}
+
+#mainNav ul li a{
+    padding: 8px 16px;
+}
+
+/*The introduction section*/
+
+#introduction
+{
+    margin: 80px 0;
+}
+
+#joinBoxContainer{
+    display: flex;
+    justify-content: center;
+    margin: 24px 0px 20vh 0px;
+}
+
+
+#joinBox
+{
+    display: inline-flex;
+    background-color: darkblue;
+    color: red;
+    align-items: baseline;
+    border-radius: 12px;
+    padding: 4px 12px;
+
+}
+
+/* Needs to set both div and paragraph background to be the same as the box color */
+#joinBox div{
+    background-color: darkblue;
+    
+}
+
+#joinBox p
+{
+    background-color: darkblue;
+}
+
+/* Styling for the course card*/
+
+#courseCard
+{
+    margin: 80px 40px;
+    border: 1px solid red;
+    border-radius: 16px;
+}
+
+.courseCardTop
+{
+    display: flex;
+    border: 2px solid blue;
+    margin: 16px;
+}
+
+.courseCardTop > div 
+{
+    margin: 10px 16px;
+}
+
+.courseCardButtonContainer
+{
+    margin: 20px 0 40px 0;
+    display: flex;
+    
+
+}
+
+.visitCourseButton
+{
+    margin-right: 16px;
+}
+
+
+
+

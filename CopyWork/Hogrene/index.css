@@ -1,0 +1,273 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+body
+{
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+section
+{
+    padding: 0 72px;
+}
+
+h2
+{
+    font-size: 32px;
+}
+
+h3
+{
+    font-size: 18px;
+    font-size: grey;
+}
+
+figcaption
+{
+    opacity: 0;
+}
+
+.greenBackground
+{
+    padding: 32px 32px;
+    background-color: hsl(84, 89%, 78%);
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: black;
+
+}
+
+#headerNav ul li
+{
+    display: inline-block;
+}
+
+#headerNav ul li a
+{
+    display: block;
+    padding: 8px 16px;
+}
+
+#headerNav ul li a:hover
+{
+    background-color: red;
+}
+
+.mainButtonStyle
+{
+    display: flex;
+    align-items: end;
+    border: 1px solid black;
+}
+
+.mainButtonStyle img
+{
+    margin-left: 8px;
+
+}
+
+header h1
+{
+    width: 80%;
+    font-weight: normal;
+    font-size: 56px;
+    padding: 60px 0 120px 0;
+}
+
+#rollingHills
+{
+    height: 45vh;
+    background-image: url(RollingHills.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Company info styling */
+
+#companyInfo
+{
+    padding-top: 80px;
+    padding-bottom: 160px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.IconInfo
+{
+    display:flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.infoImage
+{
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(84, 89%, 78%);
+    height: 40px;
+    width: 40px;
+}
+
+.IconInfo img
+{
+    height: 20px;
+}
+
+.info
+{
+    display: inherit;
+    flex-direction: column;
+    margin-left: 8px;
+
+}
+.info p
+{
+    font-size: 12px;
+    margin-top: -4px;
+}
+
+/* Our projects section */
+
+#ourProject h2
+{
+    margin-top: 16px;
+    width: 60%;
+}
+
+#ourProject div
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    
+}
+
+#ourProject a
+{
+    display: inline-block;
+    align-self: flex-end;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 8px 16px;
+}
+
+/* the biotechnobiz section */
+
+#projectContent
+{
+    background-color: hsl(30, 12%, 16%);
+    color: white;
+    padding-top: 32px;
+    padding-bottom: 56px;
+
+}
+
+.biotechnobiz
+{
+    display: grid;
+    grid-template-columns: 1fr 4fr 56px 4fr;
+
+}
+
+.projectYear
+{
+    text-align: right;
+}
+
+.biotechnobiz :nth-child(3)
+{
+    grid-column: 4;
+}
+
+.biotechnobiz h2
+{
+    margin-bottom: 56px;
+}
+
+
+.projectIconInfo
+{
+    border-top: 2px solid hsl(27, 7%, 25%);
+    padding: 24px 0;
+    display: flex;
+}
+
+.projectIconInfo :nth-child(2) :nth-child(1)
+{
+    color: hsl(27, 5%, 39%)
+}
+
+.projectIconInfo :nth-child(2) :nth-child(2)
+{
+    font-size: 14px;
+}
+
+
+.projectIconInfo:last-child
+{
+    border-bottom: 2px solid hsl(27, 7%, 25%);
+}
+
+#Solaross
+{
+    background-color: hsl(27, 8%, 22%);
+    color: white;
+}
+
+#focusAreas
+{
+    margin-bottom: 80px;
+}
+
+#cardContainer
+{
+    display: inline-flex;
+    align-items: stretch;
+    gap: 16px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+
+}
+
+.focusAreaCard
+{
+ flex: 0 0 200px;
+    border: 1px solid black;
+    padding: 16px;
+    
+}
+
+.focusAreaCard a
+{
+    text-decoration: none;
+    color: hsl(30, 12%, 16%);
+}
+
+.focusAreaCard  h3
+{
+    margin: 24px 0 12px 0;
+}
+
+.focusAreaCard p
+{
+    margin-bottom: 24px;
+}

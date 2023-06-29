@@ -1,0 +1,241 @@
+/*Wildcard + universal styling*/
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Albert Sans', sans-serif;
+    list-style: none;
+}
+
+body{
+    line-height: 1.2;
+    margin: 0 auto;
+    max-width: 960px;
+
+}
+
+button
+{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black
+}
+
+.primaryButton
+{
+    display:block;
+    text-align: center;
+    background-color: rgb(17, 23, 41);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+.primaryButton a
+{
+    color:white;
+}
+
+
+.secondaryButton
+{
+    display:block;
+    text-align: center;
+    background-color: white;
+    padding: 8px 16px;
+    border: 1px solid hsl(255, 7%, 89%);
+    border-radius: 4px;
+}
+
+.primaryButton:hover
+{
+    background-color: grey;
+}
+
+.tertiaryButton
+{
+    display: inline-block;
+    background-color: white;
+    padding: 8px 16px;
+    margin: 0px 8px;
+}
+
+.tertiaryPrimButton
+{
+    display:inline-block;
+    text-align: center;
+    background-color: rgb(17, 23, 41);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+.monthlyButton
+{
+    display:inline-block;
+    text-align: center;
+    background-color: rgb(17, 23, 41);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+.annualButton
+{
+    display: inline-block;
+    background-color: white;
+    padding: 8px 16px;
+    margin: 0px 8px;
+}
+
+/*Navigation*/
+#mainNav
+{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0 0 0;
+}
+
+#titleLogo
+{
+    padding: 0 40px 0 0;
+    font-weight: 700;
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px 10px;
+     
+}
+
+/* plans */
+
+h1
+{
+    font-size: 56px;
+    line-height: 0.9;
+    width: 80vh;
+    margin: 80px 0px 40px 0px;
+
+}
+
+h5
+{
+    font-size: 18px;
+    margin: 8px 0px 4px 0px;
+}
+
+.tab
+{
+    border: 1px solid hsl(240, 4%, 86%);
+    display: inline-block;
+    border-radius: 8px;
+    padding: 4px;
+    margin-bottom: 16px;
+
+}
+
+/* card styling*/
+#cardContainer
+{
+    display: inline-flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 24px ;
+}
+
+.planCard
+{
+    flex: 1;
+    border: 1px solid hsl(240, 4%, 86%);
+    border-radius: 8px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.perUser
+{
+    display:flex;
+    align-items: center;
+    line-height: 1;
+    font-size: 12px;
+    margin: 0 0 16px 0 ;
+}
+
+.planCard span
+{
+    font-weight: bold;
+    float:left;
+    margin-right: 8px;
+    font-size: 40px;
+}
+
+#businessPlanDiv
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#popularTag
+{
+    background-color: hsl(81, 100%, 54%);
+    border-radius: 24px;
+    padding: 5px 12px 4px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    float: right;
+    max-height: 16px;
+}
+
+.planCard p
+{
+    clear: both;
+}
+
+.planCard button
+{
+    width: 100%;
+    align-items: center;
+}
+
+.planFeatures li
+{
+    background-image: url('checkMarkBullet.svg');
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    margin-top: 5px;
+    background-size: 1em;
+
+}
+
+.planFeatures li:nth-child(1)
+{
+    margin-top: 16px;
+}
+
+.cardButtons
+{
+    margin-top: 20px;
+    align-items: flex-end;
+}
+
+.cardButtons :nth-child(1)
+{
+    margin-bottom: 10px;
+}

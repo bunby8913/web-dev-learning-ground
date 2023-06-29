@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Finny Tech</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        
+        <nav id="mainNav"> 
+            <ul>
+                <li id="titleLogo"><a href="index.html">Untitled UI</a></li>
+                <li><a href="javascript:void(0)">Home</a></li>
+                <li><a href="javascript:void(0)">Products</a></li>
+                <li><a href="javascript:void(0)">Resources</a></li>
+                <li><a href="javascript:void(0)">Pricing</a></li>
+            </ul>
+            <div><a href="javascript:void(0)" class="tertiaryButton">Log in</a>
+                <a href="javascript:void(0)" class="tertiaryPrimButton">Sign up</a>
+            </div>
+            
+        </nav>
+
+        <main>
+            <section id="plans">
+                <h1>We've got a plan that's perfect for you</h1>
+                <div id = "tabParent">
+                <div class="tab">
+                    <button class="monthlyButton" onclick="openTab(event, 'Tab1')">Monthly billing</button>
+                    <button class="annualButton" onclick="openTab(event, 'Tab2')">Annual billing</button>
+                </div>
+                </div>
+
+                <div id="cardContainer">
+                    <div class="planCard">
+                        <div>
+                            <h3>Basic plan</h3>
+                            <p class="perUser"><span id="basicPlanPrice">$10</span> per user <br > per month</p>
+                            <p>Basic features for up to 10 users</p>
+                            <h5>Features</h5>
+                            <p>Everything in our free plan plus:</p>
+                            <ul class="planFeatures">
+                                <li>Access to basic features</li>
+                                <li>Basic reporting and analytics</li>
+                                <li>20GB individual data each user</li>
+                                <li>Basic chat and email support</li>
+                            </ul>
+                        </div>
+
+                        <div class="cardButtons">
+                        <a href="javascript:void(0)" class="primaryButton">Get started</a>
+                        <a href="javascript:void(0)" class="secondaryButton">Chat to sales</a></button>
+                        </div>
+                    </div>
+    
+                    <div class="planCard">
+                        <div id="businessPlanDiv">
+                            <h3>Business plan</h3>
+                            <div id="popularTag">Popular</div>
+                        </div>
+
+                        <div>
+                            <p class="perUser"><span id="BusinessPlanPrice">$20</span> per user <br > per month</p>
+                            <p>Growing teams up to 20 users</p>
+                            <h5>Features</h5>
+                            <p>Everything in basic plus:</p>
+                            <ul class="planFeatures">
+                                <li>200+ integrations</li>
+                                <li>Advanced reporting and analytics</li>
+                                <li>40GB individual data each user</li>
+                                <li>Priority chat and email support</li>
+                            </ul>
+                        </div>
+                        <div class="cardButtons">
+                            <a href="javascript:void(0)" class="primaryButton">Get started</a>
+                            <a href="javascript:void(0)" class="secondaryButton">Chat to sales</a></button>
+                        </div>
+                    </div>
+    
+                    <div class="planCard">
+                        <div>
+                            <h3>Enterprise plan</h3>
+                            <p class="perUser"><span id="enterprisePlanPrice">$40</span> per user <br > per month</p>
+                            <p>Advanced features + unlimited users</p>
+                            <h5>Features</h5>
+                            <p>Everything in business plus:</p>
+                            <ul class="planFeatures">
+                                <li>Advanced custom fileds</li>
+                                <li>Audit log and data history</li>
+                                <li>Unlimited individual data</li>
+                                <li>Personalised + priority service</li>
+                            </ul>
+                        </div>
+                        <div class="cardButtons">
+                            <a href="javascript:void(0)" class="primaryButton">Get started</a>
+                            <a href="javascript:void(0)" class="secondaryButton">Chat to sales</a></button>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+
+            </section>
+
+        </main>
+  
+        <script src="" async defer></script>
+    </body>
+</html>
